@@ -1,0 +1,166 @@
+/*   
+Theme Name: Josh's WordPress Site
+Theme URI: http://joshwhitkin.com
+Description: Josh’s WordPress theme.
+Author: Me
+Author URI: http://joshwhitkin.com
+Version: 1
+*/ 
+
+.bg1 {
+    background:url("images/header.jpg");
+    background-size: cover;
+    height: 50vh;
+}
+
+.header-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar {
+    font-size: 0.875em;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: #FDA118;
+}
+
+
+.nav-brand {
+    font-weight: bolder;
+    letter-spacing: -3px;
+}
+
+.orange {
+    color: #FDA118;
+}
+
+.josh {
+    color: white;
+}
+
+.tag {
+    display: flex;
+    justify-content: flex-end;
+    color: #ffff;
+    margin-top: 140px;
+    text-align: right;
+    padding-bottom: 10%;
+    margin-right: 15%;
+    margin-top: 0;
+}
+
+.tag h1 {
+    font-family: 'Raleway', sans-serif;
+    width: 341px;
+    font-size: 7.125em;
+    letter-spacing: -10px;
+    font-weight: 800;
+    line-height: 75%;
+
+}
+
+.aboutbg{
+    background-color:  #d9dade;
+    padding: 2%;
+  }
+  .aboutbg h2{
+      font-size:2.4em;
+      font-family: 'Raleway', sans-serif;
+       font-weight:800;
+  }
+  
+  .particle {
+  
+      text-align: right;
+      margin-right: 150px;
+      font-size: 1.5em;
+      font-style: italic;
+      font-weight: 400;
+      line-height: 0px;
+      padding-bottom: 40px;
+  }
+  
+  .about-text{
+      
+      margin-left:40px;
+      margin-right:40px;
+      font-size:1.8em;
+      line-height:2em;
+      }
+  
+  .blocker {
+  
+      width: 133px;
+      height: 10px;
+      background-color:#AC83BA;
+      margin: auto;
+      margin-bottom: 40px;
+      margin-top:20px;
+  }
+
+  .articlesbg{
+    background-color: #fDfDfE;
+}
+
+.article-title {
+    font-size: 1.4em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    color: #0000;
+    margin-bottom: 0px;
+    padding-top: 20px;
+    text-align:left;
+}
+
+.date{
+font-size: 0.8em;
+margin-top: -5px;
+font-weight: lighter;
+font-style: italic;
+text-align:left;
+}
+
+.article-p{
+text-align:left;
+
+}
+
+.readmore{
+display:block;
+ color: #848181;
+ font-size: 0.9em;
+margin-bottom: 30px; 
+text-align:left;
+}
+.articlesbg h3{
+padding-top:30px;
+padding-bottom:30px;
+font-weight:bold;
+}
+
+footer{
+    background-image:url("images/footer.jpg");
+    background-size:cover;
+    width:100%;
+background-position: center center;
+    
+}
+
+footer p{
+
+    color:#f5f5f5;
+    font-weight: bold;
+    padding:5%;
+}
+
+
+
+
+
