@@ -1,0 +1,46 @@
+@media only screen and (max-width: 1100px) {
+    .bg1 {
+        background: url("images/header.jpg");
+        background-size: cover;
+        background-position: center;
+        min-height: 100vh;
+        position: relative; 
+    }
+}
+
+@media only screen and (max-width: 890px) {
+    .bg1 {
+        background-position: center center;
+    }
+
+    .tag {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        text-align: center;
+        color: #fff;
+    }
+
+    .tag h1 {
+        font-size: 5em;
+        letter-spacing: -2px;
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .about-text {
+        margin: 10px auto;
+        font-size: 1.2em;
+        line-height: 1.5em;
+    }
+
+    .particle {
+        text-align: center;
+        font-size: 1.3em;
+        font-style: italic;
+        font-weight: 400;
+        padding-bottom: 0;
+    }
+}
