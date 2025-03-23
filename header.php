@@ -61,37 +61,37 @@
 </head>
 <body>
 
-<nav class="navbar navbar-expand-md navbar-dark bg-dark">
-    <a class="navbar-brand" href="#"><span class="josh">JOSH</span><span class="orange">WHITKIN</span></a>
-    
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <!-- Brand -->
+        <a class="navbar-brand" href="http://206.189.45.97/~mesh9/"><span class="josh">JOSH</span><span class="orange">WHITKIN</span></a>
+      
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'your-theme-slug' ); ?>">
         <span class="navbar-toggler-icon"></span>
     </button>
-    
-    <div class="collapse navbar-collapse" id="collapsibleNavbar">
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item text-right">
-                <a class="nav-link" href="#">HOME</a>
-            </li>
-            <li class="nav-item text-right">
-                <a class="nav-link" href="#">PROJECTS</a>
-            </li>
-            <li class="nav-item text-right">
-                <a class="nav-link" href="#">CV</a>
-            </li>
-            <li class="nav-item text-right">
-                <a class="nav-link" href="#">CONTACT</a>
-            </li>
-        </ul>
-    </div>
-</nav>
+      
+        <?php 
+
+wp_nav_menu( array(
+  'theme_location'  => 'primary',
+  'depth'           => 2, // 1 = no dropdowns, 2 = with dropdowns.
+  'container'       => 'div',
+  'container_class' => 'collapse navbar-collapse',
+  'container_id'    => 'bs-example-navbar-collapse-1',
+  'menu_class'      => 'navbar-nav ml-auto',
+  'fallback_cb'     => 'WP_Bootstrap_Navwalker::fallback',
+  'walker'          => new WP_Bootstrap_Navwalker(),
+) );
+
+?>
+
+      </nav> 
 
 <header class="container-fluid bg1"> 
     <div class="container">
-        <div class="header-image">
-            <img src="http://170.187.231.66/~mesh9/wp-content/themes/starter_for_josh_site/Images/header.jpg" alt="Portfolio Image 1" class="img-fluid">
-            <h1 class="header-text">Games Design For the Future</h1>
-        </div>
+    <div class="header-image">
+    <h1 class="header-text">Games Design For the Future</h1>
+    </div>
     </div>
 <?php wp_head(); ?>
 </header>
