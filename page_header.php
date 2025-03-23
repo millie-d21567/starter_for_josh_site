@@ -49,8 +49,6 @@
     ?>">
 
     <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/images/favicon.ico">
-
-    <?php wp_head(); ?>
 </head>
 
 <body>
@@ -80,8 +78,9 @@
     </div>
 </nav>
     
-<div class="smallpage-tag">
-    <h1 class="smallpage-title"> Projects </h1>
+<div class="container smallpage-tag"><!-- div that holds the content in the middle of the page-->
+        <h1 class="smallpage-title"> Josh’s CV</h1>
+
 </div>
 <?php wp_head(); ?>
 </header>
