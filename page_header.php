@@ -55,11 +55,6 @@
 
 <body>
 
-<!-- Image Header Section -->
-<header class="header-image">
-    <img src="http://170.187.231.66/~mesh9/wp-content/themes/starter_for_josh_site/images/header.jpg" alt="Josh Whitkin's Portfolio Header" class="img-fluid">
-</header>
-
 <nav class="navbar navbar-expand-md navbar-dark bg-dark">
     <a class="navbar-brand" href="#"><span class="josh">JOSH</span><span class="orange">WHITKIN</span></a>
     
@@ -85,9 +80,8 @@
     </div>
 </nav>
     
-<div class="container smallpage-tag">
+<div class="smallpage-tag">
     <h1 class="smallpage-title"> Projects </h1>
 </div>
-
-</body>
-</html>
+<?php wp_head(); ?>
+</header>
