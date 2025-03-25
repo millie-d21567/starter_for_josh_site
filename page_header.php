@@ -78,8 +78,9 @@
     </div>
 </nav>
     
-<div class="container smallpage-tag"><!-- div that holds the content in the middle of the page-->
+<div class="container fluid smallpage-bg"><!-- div that holds the content in the middle of the page-->
         <h1 class="smallpage-title"> Josh’s CV</h1>
+        </div><!-- container-->
 
 </div>
 <?php wp_head(); ?>
