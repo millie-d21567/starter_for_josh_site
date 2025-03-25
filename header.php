@@ -88,7 +88,7 @@ wp_nav_menu( array(
       </nav> 
 
 <header class="container-fluid bg1"> 
-    <div class="container">
+    <div class="tag">
     <div class="header-image">
     <h1 class="header-text">Games Design For the Future</h1>
     </div>
