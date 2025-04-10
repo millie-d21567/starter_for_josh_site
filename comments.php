@@ -55,7 +55,7 @@ else $oddcomment = 'alt';
 <p><input type="text" name="url" id="url" value="<?php echo $comment_author_url; ?>" size="40" tabindex="3" />
 <label for="url"><small>Website</small></label></p>
 <p><textarea name="comment" id="comment" cols="60" rows="10" tabindex="4"></textarea></p>
-        
+    l    
 
 <p><input name="submit" type="submit" id="submit" tabindex="5" value="Submit Comment" />
 <input type="hidden" name="comment_post_ID" value="<?php echo $id; ?>" />
