@@ -8,7 +8,7 @@ Template Name: CV
     <div class="container">
         <div class="row">
             <section class="maintext">              
-    <article class="excerpts"><!----> <!--we can reuse the css on the old article to restyle the new dynamic posts-->
+    <article class="excerpts"><!--we can reuse the css on the old article to restyle the new dynamic posts-->
     
     <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
             
