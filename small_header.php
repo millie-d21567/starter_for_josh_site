@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <?php get_header(); /* Tells WordPress to include header.php */ ?>
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -52,31 +53,6 @@
 </head>
 
 <body>
-
-<nav class="navbar navbar-expand-md navbar-custom">
-    <a class="navbar-brand" href="#"><span class="josh">JOSH</span><span class="orange">WHITKIN</span></a>
-    
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    
-    <div class="collapse navbar-collapse" id="collapsibleNavbar">
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item text-right">
-                <a class="nav-link" href="#">HOME</a>
-            </li>
-            <li class="nav-item text-right">
-                <a class="nav-link" href="#">PROJECTS</a>
-            </li>
-            <li class="nav-item text-right">
-                <a class="nav-link" href="#">CV</a>
-            </li>
-            <li class="nav-item text-right">
-                <a class="nav-link" href="#">CONTACT</a>
-            </li>
-        </ul>
-    </div>
-</nav>
 
 <header class="container-fluid small_herobg">   <!-- div for the main image the stretches to the edge of the page- -->
 
