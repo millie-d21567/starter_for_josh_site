@@ -8,7 +8,7 @@ Version: 1
 */ 
 
 .bg1{
-    background-image:url("http://170.187.231.66/~mesh9/wp-content/themes/starter_for_josh_site/images/header.jpg");
+    background-image:url("http://170.187.231.66/~mesh9/wp-content/themes/starter_for_josh_site/Images/header.jpg");
     background-size:cover;
     }
     
@@ -53,7 +53,7 @@ Version: 1
        /* For .smallpage-bg */
        .smallpage-bg {
         width: 100%;
-        background-image: url("http://170.187.231.66/~mesh9/wp-content/themes/starter_for_josh_site/images/page_header_bg.jpg");
+        background-image: url("http://170.187.231.66/~mesh9/wp-content/themes/starter_for_josh_site/Images/page_header_bg.jpg");
         background-size: cover;
         height: 40vh;
     }
@@ -147,7 +147,7 @@ Version: 1
     }
     
     footer{
-    background-image: url("http://170.187.231.66/~mesh9/wp-content/themes/starter_for_josh_site/images/footer.jpg");
+    background-image: url("http://170.187.231.66/~mesh9/wp-content/themes/starter_for_josh_site/Images/footer.jpg");
     background-size: cover;
     background-position: center center;
     }
@@ -166,5 +166,13 @@ Version: 1
     font-weight: 400;
     padding-bottom: 0px;
     }
+
+    img.attachment-thumbnail.size-thumbnail.wp-post-image {
+        margin-left: 10px;
+        float: left;
+        margin-right: 10px;
+        padding: 10px;
+    }
+
     
  
