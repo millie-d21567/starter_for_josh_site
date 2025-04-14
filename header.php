@@ -51,7 +51,7 @@
         echo esc_attr(get_bloginfo('description'));
     }
 ?>
-<link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/_/img/favicon.ico">
+<link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>http://170.187.231.66/~mesh9/images/favicon.ico">
 <meta name="description" content="<?php bloginfo('descrption'); ?>">
 </head>
 <body>
