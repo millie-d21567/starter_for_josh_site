@@ -23,3 +23,15 @@ register_nav_menus( array(
     'primary' => __( 'Primary Menu', 'top-menu' ),
 ) );
 ?>
+
+<?php
+add_theme_support('post-thumbnails'); 
+?>
+
+<?php
+
+function add_excerpts_to_pages() {
+    add_post_type_support('page', 'excerpt');
+}
+add_action('init', 'add_excerpts_to_pages');
+?>
