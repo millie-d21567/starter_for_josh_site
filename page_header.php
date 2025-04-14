@@ -58,7 +58,7 @@
 ?>">
 
 <!-- Favicon link -->
-<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/img/favicon.ico">
+<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>http://170.187.231.66/~mesh9//image/favicon.ico">
 
 </head>
 <body>
@@ -68,7 +68,7 @@
         <a class="navbar-brand" href="http://170.187.231.66/~mesh9/"><span class="josh">JOSH</span><span class="orange"> WHITKIN</span></a>
       
         <!-- Toggler/collapsibe Button -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="collapsibleNavbar">
           <span class="navbar-toggler-icon"></span>
         </button>
       
@@ -76,16 +76,16 @@
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#">HOME</a>
+              <a class="nav-link" href="http://170.187.231.66/~mesh9/">HOME</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">PROJECTS</a>
+              <a class="nav-link" href="http://170.187.231.66/~mesh9/">PROJECTS</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">CV</a>
+              <a class="nav-link" href="http://170.187.231.66/~mesh9/">CV</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">CONTACT</a>
+                <a class="nav-link" href="http://170.187.231.66/~mesh9/">CONTACT</a>
               </li>
           </ul>
         </div>
