@@ -49,7 +49,7 @@
     }
     ?>">
 
-    <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/images/favicon.ico">
+    <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>http://170.187.231.66/~mesh9/images/favicon.ico">
 </head>
 
 <body>
