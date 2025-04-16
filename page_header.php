@@ -62,7 +62,7 @@
 
 </head>
 <body>
-<header class="container-fluid" style="background-size:cover; height:40vh; background-image: url(<?php the_field('projectheaderbackgroundimage') ?>);">
+<header class="container-fluid" style="background-size:cover; height:40vh; background-image: url(<?php the_field('headerbackgroundimage') ?>);">
     <nav class="navbar navbar-expand-md navbar-dark">
         <!-- Brand -->
         <a class="navbar-brand" href="http://170.187.231.66/~mesh9/"><span class="josh">JOSH</span><span class="orange"> WHITKIN</span></a>
@@ -79,14 +79,17 @@
               <a class="nav-link" href="http://170.187.231.66/~mesh9/">HOME</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="http://170.187.231.66/~mesh9/">PROJECTS</a>
+              <a class="nav-link" href="http://170.187.231.66/~mesh9/?page_id=988">PROJECTS</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="http://170.187.231.66/~mesh9/">CV</a>
+              <a class="nav-link" href="http://170.187.231.66/~mesh9/?page_id=1142">PUBLICATIONS</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="http://170.187.231.66/~mesh9/">CONTACT</a>
+                <a class="nav-link" href="http://170.187.231.66/~mesh9/?page_id=981">CV</a>
               </li>
+            <li class="nav-item">
+            <a class="nav-link" href="http://170.187.231.66/~mesh9/?page_id=990">CONTACT</a>
+             </li>
           </ul>
         </div>
       </nav>
