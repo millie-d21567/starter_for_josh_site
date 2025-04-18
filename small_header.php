@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <?php get_header(); /* Tells WordPress to include header.php */ ?>
+<?php require_once('page_header.php'); ?>
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -51,14 +51,6 @@
 
     <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>http://170.187.231.66/~mesh9/images/favicon.ico">
 </head>
-
-<body>
-
-<header class="container-fluid small_herobg">   <!-- div for the main image the stretches to the edge of the page- -->
-
- <div class="tag"><!-- div that holds the content in the middle of the page-->
-                  <!--<h1 > Games Design For the Future </h1>  the main tag line-->
-              </div><!-- container-->
 
 </div>
 <?php wp_head(); ?>
