@@ -85,10 +85,13 @@
               <a class="nav-link" href="http://170.187.231.66/~mesh9/?page_id=1142">PUBLICATIONS</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="http://170.187.231.66/~mesh9/?page_id=981">CV</a>
+                <a class="nav-link" href="http://170.187.231.66/~mesh9/?page_id=1339">CV</a>
               </li>
             <li class="nav-item">
             <a class="nav-link" href="http://170.187.231.66/~mesh9/?page_id=990">CONTACT</a>
+             </li>
+             <li class="nav-item">
+            <a class="nav-link" href="http://170.187.231.66/~mesh9/?page_id=985">ABOUT</a>
              </li>
           </ul>
         </div>
