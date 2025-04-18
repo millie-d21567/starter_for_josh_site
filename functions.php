@@ -65,3 +65,27 @@ function footer_right() {
 }
 add_action( 'widgets_init', 'footer_right' );
 ?>
+
+<?php
+// Add theme support for various features
+function theme_setup() {
+    // Enable support for featured images
+    add_theme_support('post-thumbnails');
+    
+    // Add title tag support for better SEO
+    add_theme_support('title-tag');
+    
+    // Add support for HTML5 elements
+    add_theme_support('html5', array('search-form', 'comment-form', 'comment-list', 'gallery', 'caption'));
+}
+add_action('after_setup_theme', 'theme_setup');
+
+// Enqueue styles and scripts
+function enqueue_custom_styles_scripts() {
+    // Enqueue main stylesheet
+    wp_enqueue_style('custom-style', get_template_directory_uri() . '/style.css');
+    
+    // Enqueue any additional JavaScript files if needed (optional)
+    // wp_enqueue_script('custom-script', get_template_directory_uri() . '/script.js', array('jquery'), null, true);
+}
+add_action('wp_enqueue_scripts', 'enqueue_custom_styles_scripts');
