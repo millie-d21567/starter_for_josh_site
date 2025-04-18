@@ -7,169 +7,278 @@ Author URI: http://joshwhitkin.com
 Version: 1
 */ 
 
-.bg1{
-    background-image:url("http://170.187.231.66/~mesh9/wp-content/themes/starter_for_josh_site/Images/header.jpg");
-    background-size:cover;
-    }
-    
-    .navbar{
-    font-size:0.8em;
-    }
-    
-    .navbar-brand{
+.bg1 {
+    background-image: url("http://170.187.231.66/~mesh9/wp-content/themes/starter_for_josh_site/Images/header.jpg");
+    background-size: cover;
+}
+
+.navbar {
+    font-size: 0.8em;
+}
+
+.navbar-brand {
     font-weight: bold;
     letter-spacing: -2px;
-    }
-    
-    .orange{
+}
+
+.orange {
     color: #FDA118;
-    
-    }
-    
-    .josh{
+}
+
+.josh {
     color: white;
-    
-    }
-    
-    .tag{
-    display:flex;
+}
+
+.tag {
+    display: flex;
     justify-content: flex-end;
-    color: #ffff;
+    color: #fff;
     text-align: right;
     padding-bottom: 10%;
-    margin-right:15%;
-    margin-top:140px
-    }
-    
-    .tag h1{
-    width:341px ;
+    margin: 140px 15% 0;
+}
+
+.tag h1 {
+    width: 341px;
     font-size: 7em;
-    letter-spacing:-10px;
-    font-weight:800;
+    letter-spacing: -10px;
+    font-weight: 800;
     line-height: 75%;
     font-family: "Raleway", sans-serif;
-    }
+}
 
-       /* For .smallpage-bg */
-       .smallpage-bg {
-        width: 100%;
-        background-image: url("http://170.187.231.66/~mesh9/wp-content/themes/starter_for_josh_site/Images/page_header_bg.jpg");
-        background-size: cover;
-        height: 40vh;
-    }
+.smallpage-bg, .small_herobg {
+    width: 100%;
+    background-size: cover;
+    height: 40vh;
+}
 
-    .smallpage-title{ 
-        font-size: 4em;
-        color: white;
-        font-weight: 800;
-        justify-content: center; /* Centers image horizontally */
-        align-items: center;    /* Centers image vertically */
-    }
+.smallpage-bg {
+    background-image: url("http://170.187.231.66/~mesh9/wp-content/themes/starter_for_josh_site/Images/page_header_bg.jpg");
+}
 
-    .small_herobg {
-        width: 100%;
-    background: url("images/small_header_bg.jpg") no-repeat center center;
-    background-size: cover;/*make the background image cover the whole div proportionally*/
-    height: 40vh; /*Viewport Height (vh) — This unit is based on the height of the viewport. A value of 1vh is equal to 1% of the viewport height. */
-    
-    }    
+.small_herobg {
+    background: url("http://170.187.231.66/~mesh9/wp-content/themes/starter_for_josh_site/Images/small_header_bg.jpg");
+}
 
-    
-    .aboutbg{
+.smallpage-title {
+    font-size: 4em;
+    color: white;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutbg {
     background-color: #E8E7EA;
     padding: 2%;
-    }
-    
-    .aboutbg h2{
-        font-size: 2.4em;
-    font-family:"Raleway", sans-serif;
-    font-weight:800;
-    
-    }
-    
-    .particle{
-    text-align: right;
-    margin-right:150px;
-    font-size: 1.5em;
-    font-style: italic;
-    font-weight: 400;
-    padding-bottom: 40px;
-    }
-    
-    .about-text{
-    margin-right: 40px;
-    margin-right: 40px;
-    font-size: 1.8em;
-    line-height:2em;
+}
 
-    }
-    
-    .blocker{
-    width: 133px;
-    height:10px;
-    background-color: #AC83BA;
-    margin: auto;
-    margin-bottom: 40px;
-    margin-top: 20px;
-    }
-    
-    .articlesbg{
-    background-color: #FDFDFE;
-    }
-    
-    .article-title{
-    font-size:1em;
-    font-family:"Raleway", sans-serif;
+.aboutbg h2 {
+    font-size: 2.4em;
+    font-family: "Raleway", sans-serif;
     font-weight: 800;
-    color: black;
-    padding-top: 20px;
-    margin-bottom: 0px;
-    }
-    
-    .articlesbg h3{
-    font-weight: bold;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    
-    }
-    
-    .date{
-    font-style: italic;
-    font-size: 0.8em;
-    text-align: left;
-    }
-    
-    .readmore{
-    display: block;
-    color: #848181;
-    font-size: 0.9em;
-    margin-bottom:30px;
-    }
-    
-    footer{
-    background-image: url("http://170.187.231.66/~mesh9/wp-content/themes/starter_for_josh_site/Images/footer.jpg");
-    background-size: cover;
-    background-position: center center;
-    }
-    
-    footer p{
-    color: white;
-    font-weight: bold;
-    padding: 5%;
-    }
-    
-    .particle{
+}
+
+.particle {
     text-align: right;
     margin-right: 150px;
     font-size: 1.5em;
     font-style: italic;
     font-weight: 400;
-    padding-bottom: 0px;
+    padding-bottom: 40px;
+}
+
+.about-text {
+    margin-right: 40px;
+    font-size: 1.8em;
+    line-height: 2em;
+}
+
+.blocker {
+    width: 133px;
+    height: 10px;
+    background-color: #AC83BA;
+    margin: 20px auto 40px;
+}
+
+.articlesbg {
+    background-color: #FDFDFE;
+}
+
+.article-title {
+    font-size: 1em;
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    color: black;
+    padding-top: 20px;
+    margin-bottom: 0;
+}
+
+.articlesbg h3 {
+    font-weight: bold;
+    padding: 30px 0;
+}
+
+.date {
+    font-style: italic;
+    font-size: 0.8em;
+    text-align: left;
+}
+
+.readmore {
+    display: block;
+    color: #848181;
+    font-size: 0.9em;
+    margin-bottom: 30px;
+}
+
+footer {
+    background-image: url("http://170.187.231.66/~mesh9/wp-content/themes/starter_for_josh_site/Images/footer.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+footer p {
+    color: white;
+    font-weight: bold;
+    padding: 5%;
+}
+
+img.attachment-thumbnail.size-thumbnail.wp-post-image {
+    margin: 10px;
+    float: left;
+    padding: 10px;
+}
+
+.maincontainer {
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+}
+
+.contact-page img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+.custom-page .header-section {
+    text-align: center;
+    color: #fff;
+}
+
+.custom-page .main-content h2 {
+    margin-top: 30px;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.custom-page .main-content p {
+    margin-bottom: 20px;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #666;
+}
+
+.custom-page .cta-section {
+    background-color: #f7f7f7;
+    padding: 40px;
+}
+
+/* Global Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.full-page-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-color: #f9f9f9;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.project-header-title {
+    font-size: 3rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.header-title {
+    font-size: 2rem;
+    color: #555;
+}
+
+.main-content {
+    margin-top: 30px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 1.8rem;
+    color: #333;
+    border-bottom: 2px solid #cccccc;
+    padding-bottom: 20px;
+    margin-bottom: 25px;
+}
+
+section p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 25px;
+    text-align: justify;
+}
+
+.cta-section {
+    background-color: #e9f7ff;
+    border-left: 5px solid #17a2b8;
+    padding: 20px;
+    text-align: center;
+}
+
+.cta-section h2 {
+    font-size: 1.5rem;
+    color: #0056b3;
+}
+
+.cta-section p {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .project-header-title {
+        font-size: 2rem;
     }
 
-    img.attachment-thumbnail.size-thumbnail.wp-post-image {
-        margin-left: 10px;
-        float: left;
-        margin-right: 10px;
-        padding: 10px;
+    .header-title {
+        font-size: 1.5rem;
     }
+
+    section h2 {
+        font-size: 1.5rem;
+    }
+
+    section p {
+        font-size: 0.9rem;
+    }
+
+    .container {
+        width: 95%;
+    }
+}
